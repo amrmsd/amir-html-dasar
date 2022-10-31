@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar HTML</title>
+    </head>
+    <body>
+
+        <!--sebagai komentar, shortcut-nya ctrl+/-->
+
+        <!-- bagian menu -->
+        <nav>
+            <a href="about.html">about</a>
+            <a href="index.html">home</a>
+        </nav>
+
+
+        <!-- bagian pemuatan gambar -->
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png" alt="logo html">
+
+        <div>
+            <img src="logo-html.png" alt="logo html">
+            <p>logo html 5</p>
+        </div>
+        <!-- div buat block level vertikal -->
+        <main>
+            <section>
+                 <h1>HTML<sup>&copy;</sup></h1>
+
+                 <!-- &xxx; adalah entity code untuk menampilkan elemen yang sulit diketik pada keyboard seperti mata uang, huruf yunani, dsb -->
+                 <hr>
+                  <!-- hr buat garis pemisah -->
+
+                 <p></p><b>Hypertext Markup Language (HTML)</b>adalah <a href="https://id.wikipedia.org/wiki/Bahasa_markah">bahasa markah</a> standar untuk dokumen yang dirancang untuk ditampilkan di peramban <span>internet</span>. <br> Ini dapat dibantu oleh teknologi seperti <i>Cascading Style Sheets</i> (CSS) dan bahasa skrip seperti <i>JavaScript</i> dan <i>VBScript.</i></p>
+
+                 <!-- span buat memblok sesuatu tapi masih jadi inline element (horizontal) -->
+                    <!-- br buat bikin baris baru -->
+
+
+                 <p>Peramban internet menerima dokumen HTML dari server web atau dari penyimpanan lokal dan membuat dokumen menjadi halaman web multimedia. HTML menggambarkan struktur halaman web secara semantik dan isyarat awal yang disertakan untuk penampilan dokumen.</p>
+             </section>
+
+             <article>
+                <h2>Sejarah</h2>
+
+                <p>Pada tahun 1980 seorang ahli fisika, Tim Berners-Lee <sup><a href="#">[1]</a></sup>, dan juga seorang kontraktor di CERN (Organisasi Eropa untuk Riset Nuklir) mengusulkan dan menyusun ENQUIRE, sebuah sistem untuk ilmuwan CERN dalam membagi dokumen. Sembilan tahun kemudian, Berners-Lee mengusulkan adanya sistem markah berbasis internet.[2] Berners-Lee menspesifikasikan HTML dan menulis jaringan beserta perangkat lunaknya di akhir 1990. Pada tahun yang sama, Berners-Lee dan Robert Cailliau, insinyur sistem data CERN berkolaborasi dalam sebuah permintaan untuk pendanaan, namun tidak diterima secara resmi oleh CERN. Di catatan pribadinya[3] sejak 1990 dia mendaftar[4] "beberapa dari banyak daerah yang menggunakan hypertext" dan pertama-tama menempatkan sebuah ensiklopedia.</p>
+    
+                <!-- sup buat superscript, angka/huruf kecil atas -->
+                <!-- sub buat subscript, angka/huruf kecil di bawah -->
+             </article>
+
+            <article>
+                <h3>Sejarah versi HTML</h3>
+                <h4>24 November 1995</h4>
+                HTML 2.0 dipublikasikan sebagai IETF RFC 1866. Penambahan RFC memperbanyak kemampuan untuk:
+                <ol> 
+                    <li>
+                        <b>November 25, 1995:</b> RFC 1867(mengunggah file berdasarkan bentuk)
+                        <ul>
+                            <li>Sub list 1</li>
+                            <li>Sub list 2</li>
+                            <li>Sub list 3</li>
+                        </ul>
+                    </li>
+    
+                    <li><b>Mei 1996:</b> RFC 1942 (tabel)</li>
+                    <li><b>Agustus 1996:</b> RFC 1980 (peta gambar berbasis klien)</li>
+                    <li><b>Januari 1997:</b> RFC 2070 (internasionalisasi)</li>
+                </ol> 
+            </article>
+
+            
+        </main>
+        
+        <!-- semantic markup seperti main, header, footer, nav, section akan memudahkan manusia dan mesin pencari untuk memahami kode yang terstruktur. bisa dibilang sebagai sub bagian dari bagian utama seperti head dan body -->
+    
+        <footer>
+            copyright&copy;2022
+        </footer>
+    </body>
+</html>
